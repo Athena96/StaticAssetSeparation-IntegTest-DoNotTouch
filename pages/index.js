@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import pillarsOfCreationPng from "../public/pillars-of-creation.png";
+import dc from "../public/nest/dc.png";
 
 export default function Home() {
   return (
@@ -20,7 +22,24 @@ export default function Home() {
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
+        <figure>
+          <figcaption>Using static import</figcaption>
+          <Image
+            src={pillarsOfCreationPng}
+            alt="The pillars of creation"
+            height={300}
+            width={900}
+          ></Image>
+        </figure>
 
+        <figure>
+          <figcaption>Nested <code>public</code> folder</figcaption>
+          <Image
+            src={dc}
+            alt="DC"
+
+          ></Image>
+        </figure>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
