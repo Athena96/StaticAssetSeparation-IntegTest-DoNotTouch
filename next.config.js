@@ -1,4 +1,7 @@
 module.exports = {
+  images: {
+      domains: ['images.unsplash.com'],
+  },
   reactStrictMode: true,
   i18n: {
     locales: ["en-US", "fr"],
