@@ -14,3 +14,6 @@
 | Redirects (With locale) | /fr/basic-redirect                       |
 | Rewrites                | /rewrite                                 |
 | Custom Headers          | /custom-headers                          |
+
+
+
